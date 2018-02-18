@@ -1,6 +1,6 @@
 # Integrate Angular-ReactJS
 
-This repository focuses on integration AngularJS and ReactJS by rendering a Periodic table.
+This repository focuses on integration of AngularJS and ReactJS together by rendering a Periodic table.
 
 ![alt text](https://github.com/nandarkunal/Angular-ReactJS/blob/master/screenshot.png)
 
