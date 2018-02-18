@@ -1,7 +1,6 @@
 import app from '../../main'
 import React from "react";
 import ReactDOM from "react-dom";
-import Layout from "../react/Layout";
 import PDTable from "../react/PDTable";
 
 const reactOPeriodicDir = app.directive('reactPeriodictableDirective',function(){

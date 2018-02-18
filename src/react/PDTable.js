@@ -42,7 +42,11 @@ export default class PDTable extends React.Component{
 									this.props.pdtable.forEach(function(v,kk){
 										if(v.ypos == key && v.xpos == k){
 											
-											str = <td className="element" id={key+"-"+k} key={key+"-"+k}>{v.symbol}</td>
+											str = <td className="element" id={key+"-"+k} key={key+"-"+k}>
+												<span className="atnum">{v.number}</span>
+												<span className="symbol">{v.symbol}</span>
+												<span className="name">{v.name}</span>
+												</td>
 										}
 									});
 									return str;
